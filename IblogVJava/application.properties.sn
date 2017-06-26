@@ -1,0 +1,14 @@
+sn.jdbc.url=jdbc:mysql://localhost:3306/iblogv?useSSL=false&serverTimezone=UTC
+sn.db.user=root
+sn.db.password=mindfire
+sn.default.schema=iblogv
+debug=true
+logging.path=E:\\workspace
+logging.file=identity-manager-api.log
+
+
+jwt.header=Authorization
+jwt.secret=AmitSecret
+jwt.expiration=99999999999
+jwt.authentication.path=auth
+jwt.authentication.refresh=refresh
